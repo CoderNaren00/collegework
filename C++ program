@@ -1,0 +1,14 @@
+//*Following algorithm shows calculation of factorial using recursion in C++ is as follows:*//
+#include <iostream>
+using namespace std;
+int fact(int N) {
+if ((N==0)||(N==1))
+return 1;
+else
+return N*fact(N-1);
+}
+int main() {
+int n = 7;
+cout<<”Factorial of “<<n<<” is “<<fact(n);
+return 0;
+}
