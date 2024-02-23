@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{ 
+    //Creating datatypes in C program//
+    int a = 50000;
+    float b = 45.46;
+    char c = 'S';
+
+    // statments for printing dataypes//
+    printf("%d\n", a);
+    printf("%f\n", b);
+    printf("%c\n", c);
+}
