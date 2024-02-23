@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+    int a = 3456;
+    float b = 21345.3416;
+    char c = 'V';
+    printf("%d\n",a);
+    printf("%f\n",b);
+    printf("%c\n",c);
+}
