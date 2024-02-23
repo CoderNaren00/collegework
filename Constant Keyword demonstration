@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+void main()
+{//Using Const Keyword to demonstrate the use of constant keyword//
+    const float pi = 3.14;
+    printf("%f\n",pi);
+}
