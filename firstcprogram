@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+    //Creating variable having different data types
+    int integer = 25;
+    float floating = 45.21;
+    char character = 'N';
+    
+    //Printing variables with the help of thier respective format specifiers
+    printf("%d\n", integer);
+    printf("%f\n", floating);
+    printf("%c\n", character);
+}
